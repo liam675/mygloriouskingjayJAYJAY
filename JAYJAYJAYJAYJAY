@@ -8,7 +8,7 @@ local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'Example menu',
+    Title = 'Harlem.cc',
     Center = true,
     AutoShow = true,
     TabPadding = 4, -- Smaller padding
@@ -27,7 +27,7 @@ local GroupboxTwo = Tabs.Main:AddLeftGroupbox('Groupbox Two')
 local GroupboxThree = Tabs.Main:AddRightGroupbox('Groupbox Three')
 local GroupboxFour = Tabs.Main:AddRightGroupbox('Groupbox Four')
 
--- CAMLOCK FUNCTIONALITY IN GROUPBOX ONE
+
 getgenv().CamlockEnabled = false
 getgenv().CamlockPrediction = 0.165
 getgenv().CamlockKey = Enum.KeyCode.E
